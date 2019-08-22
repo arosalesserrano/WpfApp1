@@ -161,7 +161,7 @@ namespace WpfApp1
                 MessagesList.Items.Add("Conexion establecida");
                 MessagesList.Items.Add("Enviando mensaje.....");
                 await connection.InvokeAsync("SendMessage",
-                   "Yo", "Yo,hola,hola");
+                   "arosales", "Yo,hola,hola");
 
                 //             connectButton.IsEnabled = false;
                 //             sendButton.IsEnabled = true;
